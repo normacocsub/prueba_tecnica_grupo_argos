@@ -2,6 +2,11 @@
 
 ¡Bienvenido al proyecto! Este README proporciona instrucciones completas sobre cómo ejecutar la aplicación utilizando Docker y .NET.
 
+## Arquitectura
+
+Este proyecto se baso en el patron arquitectonico Onion
+
+
 ## Ejecución con Docker
 
 Docker proporciona una manera conveniente de contenerizar e implementar aplicaciones. Siga estos pasos para ejecutar Tienda Onion utilizando Docker:
@@ -49,6 +54,13 @@ dotnet run --project Presentation/Presentation.csproj
 
 
 7. Una vez que la aplicación esté ejecutándose, estará disponible en [http://localhost:5000](http://localhost:5000).
+
+
+## Acceder al Swagger
+
+En el swagger podremos encontrar los endpoints 
+
+``` localhost:5000/swagger/index.html ```
 
 ## Requisitos
 
