@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EkmzvG6qAqQ0ij/SHc+Xan62Sf3o1rlLBDHQGqrMiPPQkx6JSqnTs4LIG5luLcebZMW/FuK4WfevGJJllic5YQ==",
+  "success": true,
+  "projectFilePath": "/Users/fernandovega/Documents/PruebaTecnica/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/fernandovega/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/fernandovega/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/fernandovega/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

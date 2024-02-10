@@ -1,0 +1,15 @@
+/Users/fernandovega/Documents/PruebaTecnica/Application/bin/Debug/net8.0/Application.deps.json
+/Users/fernandovega/Documents/PruebaTecnica/Application/bin/Debug/net8.0/Application.dll
+/Users/fernandovega/Documents/PruebaTecnica/Application/bin/Debug/net8.0/Application.pdb
+/Users/fernandovega/Documents/PruebaTecnica/Application/bin/Debug/net8.0/Domain.dll
+/Users/fernandovega/Documents/PruebaTecnica/Application/bin/Debug/net8.0/Domain.pdb
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.dll
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/refint/Application.dll
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/Application.pdb
+/Users/fernandovega/Documents/PruebaTecnica/Application/obj/Debug/net8.0/ref/Application.dll
