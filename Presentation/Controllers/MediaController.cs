@@ -8,10 +8,24 @@ namespace Presentation.Controllers;
 [Route("api/[controller]")]
 public class MediaController(ISender mediator) : ControllerBase
 {
-    [HttpGet("GetMedia")]
+    [HttpGet("GetMediaAgentA")]
     public async Task<IActionResult> GetMedia([FromQuery] GetMediaQuery query)
     {
-        var response = await mediator.Send((query));
+        var response = await mediator.Send(query);
+        return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
+    }
+
+    [HttpGet("GetMediaArmonicaAgentB")]
+    public async Task<IActionResult> GetMediaArmonica([FromQuery] GetMediaArmonicaQuery query)
+    {
+        var response = await mediator.Send(query);
+        return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
+    }
+
+    [HttpGet("GetMedianaAgentC")]
+    public async Task<IActionResult> GetMediana([FromQuery] GetMedianaQuery query)
+    {
+        var response = await mediator.Send(query);
         return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
     }
 }
