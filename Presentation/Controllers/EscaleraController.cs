@@ -6,24 +6,24 @@ namespace Presentation.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class MediaController(ISender mediator) : ControllerBase
+public class EscaleraController(ISender mediator) : ControllerBase
 {
-    [HttpGet("GetMediaAgentA")]
-    public async Task<IActionResult> GetMedia([FromQuery] GetMediaQuery query)
+    [HttpGet("GetStairAgentA")]
+    public async Task<IActionResult> GetStairRigth([FromQuery] GetStairRigthQuery query)
     {
         var response = await mediator.Send(query);
         return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
     }
-
-    [HttpGet("GetMediaArmonicaAgentB")]
-    public async Task<IActionResult> GetMediaArmonica([FromQuery] GetMediaArmonicaQuery query)
+    
+    [HttpGet("GetStairAgentB")]
+    public async Task<IActionResult> GetStairInvertRigth([FromQuery] GetStairInvertRigthQuery query)
     {
         var response = await mediator.Send(query);
         return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
     }
-
-    [HttpGet("GetMedianaAgentC")]
-    public async Task<IActionResult> GetMediana([FromQuery] GetMedianaQuery query)
+    
+    [HttpGet("GetStairAgentC")]
+    public async Task<IActionResult> GetStairRombo([FromQuery] GetStairRomboQuery query)
     {
         var response = await mediator.Send(query);
         return response.IsSuccess ? Ok(response.Data) : StatusCode(response.StatusCode, new { response.ErrorMessage});
