@@ -39,3 +39,4 @@
 /Users/fernandovega/Documents/PruebaTecnica/Presentation/obj/Debug/net8.0/Presentation.pdb
 /Users/fernandovega/Documents/PruebaTecnica/Presentation/obj/Debug/net8.0/Presentation.genruntimeconfig.cache
 /Users/fernandovega/Documents/PruebaTecnica/Presentation/obj/Debug/net8.0/ref/Presentation.dll
+/Users/fernandovega/Documents/PruebaTecnica/Presentation/obj/Debug/net8.0/Presentation.sourcelink.json
