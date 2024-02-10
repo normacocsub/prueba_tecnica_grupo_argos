@@ -11,6 +11,7 @@ public static class ConfigureServices
     public static void ConfigureService(this IServiceCollection services)
     {
         services.AddScoped<IMediaService, MediaService>();
+        services.AddScoped<IEscaleraService, EscaleraService>();
         services.AddScoped(typeof(IClassResponse<>), typeof(ClassResponse<>));
     }
 }
